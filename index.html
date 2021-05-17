@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+    <!-- Font Awesome? -->
+    <!-- Styles -->
+    <link rel="stylesheet" href="scss/styles.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <section class="section-center">
+      <!-- form -->
+      <form class="form">
+        <p class="alert"></p>
+        <h3>expense tracker</h3>
+        <div class="form-control">
+          <input type="text" id="item" placeholder="enter item" />
+          <input
+            type="number"
+            id="amount"
+            min="0"
+            value="0.00"
+            step="0.01"
+            placeholder="$0.00"
+          />
+          <button type="submit" class="submit-btn">submit</button>
+        </div>
+      </form>
+      <!-- list -->
+      <div class="total-container">
+        <output class="total"></output>
+      </div>
+      <div class="container">
+        <div class="list"></div>
+        <!-- clear items button -->
+        <button type="button" class="clear-btn">clear items</button>
+      </div>
+      <footer>
+        <div>
+          Icons made by
+          <a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a
+          ><br />
+          from
+          <a href="https://www.flaticon.com/" title="Flaticon"
+            >www.flaticon.com</a
+          >
+        </div>
+        <div>
+          <p>Site by <a href="#">Trey Cooper</a></p>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
