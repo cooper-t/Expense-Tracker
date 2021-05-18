@@ -1,3 +1,8 @@
+body {
+  background-color: #1b263b;
+  color: #0d1b2a;
+}
+
 .section-center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9,8 +14,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-shadow: 2px 5px 5px 5px cornflowerblue;
-          box-shadow: 2px 5px 5px 5px cornflowerblue;
+  background-color: #e0e1dd;
+  -webkit-box-shadow: 2px 5px 5px 5px #778da9;
+          box-shadow: 2px 5px 5px 5px #778da9;
   width: 50vw;
   position: absolute;
   top: 15%;
@@ -46,7 +52,7 @@
   width: 30%;
   height: 1.25rem;
   border-radius: 15px;
-  background-color: cornsilk;
+  background-color: white;
   font-size: 0.9rem;
   padding-left: 1rem;
 }
@@ -61,7 +67,7 @@
   width: 20%;
   margin-left: 1rem;
   border-radius: 15px;
-  background-color: cornsilk;
+  background-color: white;
   padding-left: 1rem;
   font-size: 0.9rem;
   -moz-appearance: textfield;
@@ -79,7 +85,7 @@
   height: 1.65rem;
   width: 15%;
   margin-left: 1rem;
-  background-color: cornflowerblue;
+  background-color: #778da9;
   color: white;
   border-radius: 15px;
   border-right-width: 2px;

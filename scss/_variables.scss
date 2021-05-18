@@ -1,3 +1,9 @@
+$white: white;
+$platinum: #e0e1dd;
+$shadowBlue: #778da9;
+$oxfordBlue: #1b263b;
+$richBlack: #0d1b2a;
+
 @mixin breakpoint($point) {
   @if $point == tablet {
     @media (max-width: 60.5em) {

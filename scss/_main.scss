@@ -1,8 +1,14 @@
+body {
+  background-color: $oxfordBlue;
+  color: $richBlack;
+}
+
 .section-center {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  box-shadow: 2px 5px 5px 5px cornflowerblue;
+  background-color: $platinum;
+  box-shadow: 2px 5px 5px 5px $shadowBlue;
   width: 50vw; // need to add a breakpoint for small screens to take 100vw
   position: absolute;
   top: 15%;
@@ -28,7 +34,7 @@
     width: 30%;
     height: 1.25rem;
     border-radius: 15px;
-    background-color: cornsilk;
+    background-color: $white;
     font-size: 0.9rem;
     padding-left: 1rem;
 
@@ -41,7 +47,7 @@
     width: 20%;
     margin-left: 1rem;
     border-radius: 15px;
-    background-color: cornsilk;
+    background-color: $white;
     padding-left: 1rem;
     font-size: 0.9rem;
 
@@ -67,7 +73,7 @@
     height: 1.65rem;
     width: 15%;
     margin-left: 1rem;
-    background-color: cornflowerblue;
+    background-color: #778da9;
     color: white;
     border-radius: 15px;
     border-right-width: 2px;
